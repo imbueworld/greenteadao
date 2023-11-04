@@ -19,7 +19,7 @@ export default function Newsletter() {
 
             {/* CTA content */}
             <div className="mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left lg:w-1/2">
-              <h3 className="h3 text-white mb-2">We're launching soon...</h3>
+              <h3 className="h3 text-white mb-2">Want to join?</h3>
               <p className="text-gray-200 text-lg">First Drop Will Include Green Tea from all 47 prefectures in Japan.</p>
               <br></br>
               <p className="text-gray-200 text-lg">It will also include:</p>
