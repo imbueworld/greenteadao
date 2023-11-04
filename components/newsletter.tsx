@@ -1,5 +1,3 @@
-'use client'
-
 import Image from 'next/image'
 
 import teaBox from '@/public/images/teaMapJapan.png'
@@ -7,10 +5,10 @@ import teaBox from '@/public/images/teaMapJapan.png'
 export default function Newsletter() {
   return (
     <section>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6" >
 
         {/* CTA box */}
-        <div className="relative bg-gray-900 py-10 px-8 md:py-16 md:px-12" data-aos="fade-up">
+        <div className="relative bg-gray-900 py-10 px-8 md:py-16 md:px-12 border border-gray-700" data-aos="fade-up">
 
           {/* Image section */}
           <div className="w-full flex justify-center mb-6">
