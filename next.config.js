@@ -2,6 +2,8 @@
 
 const nextConfig = {
     output: 'export',
+    unoptimized: true,
+    images: { unoptimized: true },
     reactStrictMode: true,
     trailingSlash: true,
   };
