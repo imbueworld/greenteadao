@@ -50,8 +50,8 @@ export default function Zigzag() {
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   {/* <div className="font-architects-daughter text-xl text-purple-600 mb-2">More speed. Less spend</div> */}
-                  <h3 className="h3 mb-3"></h3>
-                  <p className="text-xl text-gray-300 mb-4"> In the land of rising sun, green tea isn't just a beverage, it's a lifestyle. And let's be honest, your current green tea experience?</p> <br></br> <p className="text-xl text-gray-300 mb-4">It’s about as authentic as a sushi roll from a gas station.</p>
+                  <h3 className="h3 mb-3">🌱 Leaf the Ordinary Behind</h3>
+                  <p className="text-xl text-gray-300 mb-4"> In the land of rising sun, green tea isn't just a beverage, it's a lifestyle.</p> <br></br> <p className="text-xl text-gray-300 mb-4"></p>
                   <ul className="text-lg text-gray-400 -mb-2">
                   </ul>
                 </div>
@@ -69,7 +69,7 @@ export default function Zigzag() {
                 <div className="md:pl-4 lg:pl-12 xl:pl-16">
                   {/* <div className="font-architects-daughter text-xl text-purple-600 mb-2">More speed. Less spend</div> */}
                   <h3 className="h3 mb-3"></h3>
-                  <p className="text-xl text-gray-300 mb-4">You might think, "But It’s organic..."</p> <br></br> <p className="text-xl text-gray-300 mb-4">Sure, Karen. And I’m the Emperor of Japan.</p>
+                  <p className="text-xl text-gray-300 mb-4">Forget the status quo; here's to the mavericks of matcha, the samurais of sencha! Your cup, your rules.</p>
                 </div>
               </div>
             </div>
@@ -133,7 +133,7 @@ export default function Zigzag() {
                 <div className="md:pl-4 lg:pl-12 xl:pl-16">
                   {/* <div className="font-architects-daughter text-xl text-purple-600 mb-2">More speed. Less spend</div> */}
                   {/* <h3 className="h3 mb-3">Keep projects on schedule</h3> */}
-                  <p className="text-xl text-gray-300 mb-4">Oh, and we’re also about those smooth lines and minimalist vibes that’ll make your tea corner look like a Zen master’s Pinterest board.</p>
+                  <p className="text-xl text-gray-300 mb-4">Oh, and Our aesthetics? Sharper than a samurai sword and more calming than a haiku in a breeze.</p>
                 </div>
               </div>
             </div>
