@@ -45,21 +45,10 @@ export default function Newsletter() {
               {/* <p className="text-center lg:text-left lg:absolute mt-2 opacity-75 text-sm">Thanks for subscribing!</p> */}
             </form>
 
-
-
           </div>
-          {/* Embed NFT Minting here */}
-          {/* <div className="w-full flex justify-center mb-6">
-            <iframe
-              src="https://embed.ipfscdn.io/ipfs/bafybeicd3qfzelz4su7ng6n523virdsgobrc5pcbarhwqv3dj3drh645pi/?contract=0x39a043A14c20B5AfAD884738BC9C01c9Ae58afD9&chain=%7B%22name%22%3A%22Optimism+Goerli+Testnet%22%2C%22chain%22%3A%22ETH%22%2C%22rpc%22%3A%5B%22https%3A%2F%2Foptimism-goerli.rpc.thirdweb.com%2F%24%7BTHIRDWEB_API_KEY%7D%22%5D%2C%22nativeCurrency%22%3A%7B%22name%22%3A%22Goerli+Ether%22%2C%22symbol%22%3A%22ETH%22%2C%22decimals%22%3A18%7D%2C%22shortName%22%3A%22ogor%22%2C%22chainId%22%3A420%2C%22testnet%22%3Afalse%2C%22slug%22%3A%22optimism-goerli%22%2C%22icon%22%3A%7B%22url%22%3A%22ipfs%3A%2F%2FQmcxZHpyJa8T4i63xqjPYrZ6tKrt55tZJpbXcjSDKuKaf9%2Foptimism%2F512.png%22%2C%22width%22%3A512%2C%22height%22%3A512%2C%22format%22%3A%22png%22%7D%7D&clientId=485234e076aa338b179b85c89a062260&theme=dark&primaryColor=purple"
-              style={{
-                width: '75%', // This sets the width to 75% of its container
-                height: '600px', // You can adjust the height as needed
-                maxWidth: '100%', // Ensures the iframe is not wider than its container
-                borderRadius: '8px' // This applies rounded corners. The value can be adjusted to your preference
-              }}
-            ></iframe>
-          </div> */}
+          <div className="w-full flex justify-center mt-6">
+            <button className="btn text-gray-600 bg-gray-100 hover:bg-white shadow">Mint NFT</button>
+          </div>
 
         </div>
 
