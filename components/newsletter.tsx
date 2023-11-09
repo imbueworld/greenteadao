@@ -1,3 +1,5 @@
+'use client'
+
 import Image from 'next/image'
 
 import teaBox from '@/public/images/teaMapJapan.png'
