@@ -1,6 +1,4 @@
 
-'use client'
-
 import Image from 'next/image'
 
 import FeatImage01 from '@/public/images/tranquilGarden.png'

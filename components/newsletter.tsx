@@ -1,4 +1,3 @@
-'use client'
 
 import Image from 'next/image'
 
@@ -49,7 +48,9 @@ export default function Newsletter() {
 
           </div>
           <div className="w-full flex justify-center mt-6">
-            <button className="btn text-gray-600 bg-gray-100 hover:bg-white shadow">Mint NFT</button>
+            <a href="https://nft.on-fleek.app/" target="_blank" rel="noopener noreferrer">
+              <button className="btn text-gray-600 bg-gray-100 hover:bg-white shadow">Mint NFT</button>
+            </a>
           </div>
 
         </div>
