@@ -1,4 +1,5 @@
 
+
 import Image from 'next/image'
 
 import FeatImage01 from '@/public/images/tranquilGarden.png'
@@ -19,15 +20,18 @@ export default function Zigzag() {
         <div className="py-12 md:py-20 border-t border-gray-800">
 
           {/* Section header */}
-          <div className="flex flex-col items-center justify-center h-screen">
-            <div className="max-w-3xl mx-auto text-center mb-20">
-              <div className="mb-8">
-                <Image src={MainImage} alt="Descriptive Alt Text" className="mx-auto" />
-              </div>
-              <h1 className="h2 mb-4">We think green tea is awesome.</h1>
-              <p className="text-xl text-gray-400">You might want to scroll down if you think so too</p>
+          <div className="max-w-3xl mx-auto text-center mb-20">
+            <div className="mb-8">
+              <Image src={MainImage} alt="Descriptive Alt Text" className="mx-auto" />
             </div>
-            <div className="animate-bounce flex items-center justify-center w-full">
+            <h1 className="h2 mb-4">We think green tea is awesome.</h1>
+            <p className="text-xl text-gray-400">You might want to scroll down if you think so too</p>
+            <div className="w-full flex justify-center mt-6">
+              <a href="https://nft.on-fleek.app/" target="_blank" rel="noopener noreferrer">
+                <button className="btn text-gray-600 bg-gray-100 hover:bg-white shadow">Mint NFT</button>
+              </a>
+            </div>
+            <div className="animate-bounce flex items-center justify-center w-full mt-10">
               <svg className="w-6 h-6 text-gray-600" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
                 <path d="M19 9l-7 7-7-7"></path>
               </svg>
@@ -101,7 +105,7 @@ export default function Zigzag() {
                 <div className="md:pl-4 lg:pl-12 xl:pl-16">
                   {/* <div className="font-architects-daughter text-xl text-purple-600 mb-2">More speed. Less spend</div> */}
                   {/* <h3 className="h3 mb-3">Keep projects on schedule</h3> */}
-                  <p className="text-xl text-gray-300 mb-4">Your tea corner isn't just a tea corner... It's a silent dojo where every sip is a kata, perfecting the art of relaxation.</p> 
+                  <p className="text-xl text-gray-300 mb-4">Your tea corner isn't just a tea corner... It's a silent dojo where every sip is a kata, perfecting the art of relaxation.</p>
                 </div>
               </div>
             </div>
