@@ -27,7 +27,7 @@ export default function Zigzag() {
             <h1 className="h2 mb-4">We think green tea is awesome.</h1>
             <p className="text-xl text-gray-400">You might want to scroll down if you think so too</p>
             <div className="w-full flex justify-center mt-6">
-              <a href="https://nft.on-fleek.app/" target="_blank" rel="noopener noreferrer">
+              <a href="https://mint.greenteadao.eth.limo/" target="_blank" rel="noopener noreferrer">
                 <button className="btn text-gray-600 bg-gray-100 hover:bg-white shadow">Mint NFT</button>
               </a>
             </div>

@@ -34,7 +34,7 @@ export default function Newsletter() {
               </ul>
             </div>
             <div className="w-full flex justify-center mt-6">
-              <a href="https://nft.on-fleek.app/" target="_blank" rel="noopener noreferrer">
+              <a href="https://mint.greenteadao.eth.limo/" target="_blank" rel="noopener noreferrer">
                 <button className="btn text-gray-600 bg-gray-100 hover:bg-white shadow">Mint NFT</button>
               </a>
             </div>
