@@ -27,7 +27,7 @@ export default function Newsletter() {
               <br></br>
               <ul className="text-gray-200 text-lg list-disc pl-5">
                 <li>Custom US Made Wooden Box With Japan Map Engraved on Top</li>
-                <li>Unique NFT of the map of Japan</li>
+                <li>Unique NFT of matcha in beaitufl japanese settignss</li>
                 <li>A matcha kit</li>
                 <li>Early Access to future drops</li>
                 <li>15% of funds go to a treasury to fund things the community votes on!</li>
