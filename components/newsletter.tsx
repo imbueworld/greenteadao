@@ -21,13 +21,13 @@ export default function Newsletter() {
             {/* CTA content */}
             <div className="mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left lg:w-1/2">
               <h3 className="h3 text-white mb-2">Want to join?</h3>
-              <p className="text-gray-200 text-lg">First Drop Will Include Green Tea from all 47 prefectures in Japan.</p>
+              <p className="text-gray-200 text-lg">First Drop Will Include Unique Tea from all 47 prefectures in Japan.</p>
               <br></br>
               <p className="text-gray-200 text-lg">It will also include:</p>
               <br></br>
               <ul className="text-gray-200 text-lg list-disc pl-5">
                 <li>Custom US Made Wooden Box With Japan Map Engraved on Top</li>
-                <li>Unique NFT of matcha in beaitufl japanese settignss</li>
+                <li>Unique NFT of matcha in beautiful Japanese settings</li>
                 <li>A matcha kit</li>
                 <li>Early Access to future drops</li>
                 <li>15% of funds go to a treasury to fund things the community votes on!</li>
@@ -35,7 +35,7 @@ export default function Newsletter() {
             </div>
             <div className="w-full flex justify-center mt-6">
               <a href="https://mint.greenteadao.eth.limo/" target="_blank" rel="noopener noreferrer">
-                <button className="btn text-gray-600 bg-gray-100 hover:bg-white shadow">Mint NFT</button>
+                <button className="btn text-gray-600 bg-gray-100 hover:bg-white shadow">Get Tea!</button>
               </a>
             </div>
             {/* CTA form

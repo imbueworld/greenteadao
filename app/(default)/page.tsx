@@ -8,9 +8,9 @@ import Zigzag from '@/components/zigzag'
 
 export default function Home() {
   return (
-    <>
+    <div id="page">
       <Zigzag />
       <Newsletter />
-    </>
+    </div>
   )
 }

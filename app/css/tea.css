@@ -1,0 +1,44 @@
+/* src/components/TeaItem.css */
+.tea-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    margin-bottom: 16px;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  .tea-item-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .tea-item.out-of-stock {
+    opacity: 0.5;
+  }
+  
+  .tea-number {
+    font-weight: bold;
+  }
+  
+  .tea-prefecture {
+    color: #666;
+  }
+  
+  .tea-description,
+  .tea-price {
+    color: #333;
+  }
+  
+  .tea {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjust the minmax values as needed */
+    gap: 16px; /* Adjust as needed */
+  }  
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px; /* adjust as needed */
+  }
