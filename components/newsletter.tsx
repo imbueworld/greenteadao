@@ -1,7 +1,7 @@
 
 import Image from 'next/image'
 
-import teaBox from '@/public/images/teaMapJapan.png'
+import box from '../public/images/box.png'
 
 export default function Newsletter() {
   return (
@@ -14,23 +14,21 @@ export default function Newsletter() {
 
           {/* Image section */}
           <div className="w-full flex justify-center mb-6">
-            <Image src={teaBox} alt="Descriptive Alt Text" className="max-w-xs sm:max-w-md lg:max-w-lg" />
+            <Image src={box} alt="Descriptive Alt Text" className="max-w-xs sm:max-w-md lg:max-w-lg" />
           </div>
           {/* <div className="relative flex flex-col lg:flex-row justify-between items-center"> */}
 
             {/* CTA content */}
             <div className="mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left lg:w-1/2">
-              <h3 className="h3 text-white mb-2">Want to join?</h3>
-              <p className="text-gray-200 text-lg">First Drop Will Include Unique Tea from all 47 prefectures in Japan.</p>
+              <h3 className="h3 text-white mb-2">Want to purchase the green tea collection?</h3>
+              <p className="text-gray-200 text-lg">Click the "get tea" button below to buy the 47 prefectures collection in Japan.</p>
               <br></br>
               <p className="text-gray-200 text-lg">It will also include:</p>
               <br></br>
               <ul className="text-gray-200 text-lg list-disc pl-5">
                 <li>Custom US Made Wooden Box With Japan Map Engraved on Top</li>
-                <li>Unique NFT of matcha in beautiful Japanese settings</li>
                 <li>A matcha kit</li>
-                <li>Early Access to future drops</li>
-                <li>15% of funds go to a treasury to fund things the community votes on!</li>
+
               </ul>
             </div>
             <div className="w-full flex justify-center mt-6">
