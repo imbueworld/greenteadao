@@ -4,7 +4,6 @@ import Image from "next/image";
 import React, { useState } from "react";
 
 // import FeatImage01 from '/public/images/tranquilGarden.png'
-import jp from "../public/images/jp.jpg";
 import teamap from "../public/images/teajapan.png";
 import FeatImage04 from "../public/images/Tea.png";
 import FeatImage05 from "../public/images/japanMap.png";
@@ -56,6 +55,7 @@ import tea46 from "../public/images/46.webp";
 import tea47 from "../public/images/47.webp";
 import matchaKit from "../public/images/matchakit.webp";
 import teatime from "../public/images/teatime.jpg";
+import jp from "../public/images/jp.jpg";
 
 
 import boxImgae from "../public/images/boximage.svg";
