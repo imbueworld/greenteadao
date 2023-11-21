@@ -71,7 +71,7 @@ const teas: TeaItemProps[] = [
     outOfStock: false,
     imageUrl: matchaKit,
     extendedDescription:
-      'In order to help you enjoy matcha at home, we have included an 80-piece chasen and a white bamboo tea scoop, along with Chakatas original matcha "蘖". This set is also recommended for those who are making matcha for the first time. MATCHA TEA CEREMONY HIKOBAE - This is Chakatas original matcha made with the nutritious and umami variety "Okumidori." ',
+      'In order to help you enjoy matcha at home, we have included an 80-piece chasen and a white bamboo tea scoop, along with Chakatas original matcha "蘖". This set is also recommended for those who are making matcha for the first time. MATCHA TEA CEREMONY HIKOBAE - This is Chakatas original matcha made with the nutritious and umami variety "Okumidori."',
   },
   {
     number: "01",
@@ -651,7 +651,7 @@ export default function Zigzag() {
                 </h3>
                 <p className="text-xl text-gray-300 mb-4">
                   {" "}
-                  I drink tea multiple times a day every day.{" "}
+                  I drink tea every day, upwards of three times a day.{" "}
                 </p>{" "}
                 <br></br>{" "}
                 <p className="text-xl text-gray-300 mb-4">
