@@ -24,7 +24,7 @@ export default function Newsletter() {
           {/* CTA content */}
           <div className="mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left lg:w-1/2">
             <h3 className="h3 text-white mb-2">
-              Want to purchase the green tea collection?
+              Want to purchase the 47 Japanese Prefecture collection?
             </h3>
             <p className="text-gray-200 text-lg">
               Click the "get tea" button below to buy the 47 prefectures
