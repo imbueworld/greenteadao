@@ -54,8 +54,8 @@ import tea45 from "../public/images/45.webp";
 import tea46 from "../public/images/46.webp";
 import tea47 from "../public/images/47.webp";
 import matchaKit from "../public/images/matchakit.webp";
-import teatime from "../public/images/teatime.jpg";
-import jp from "../public/images/jp.jpg";
+import teatime from "../public/images/meeting.jpg";
+import jp from "../public/images/japanpalace.jpg";
 
 
 import boxImgae from "../public/images/boximage.svg";
