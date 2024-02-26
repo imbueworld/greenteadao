@@ -3,13 +3,14 @@
 import Image from "next/image";
 import React, { useState } from "react";
 
-// import FeatImage01 from '/public/images/tranquilGarden.png'
-import teamap from "../public/images/teajapan.png";
-import FeatImage04 from "../public/images/Tea.png";
-import FeatImage05 from "../public/images/japanMap.png";
-import inhaler from "../public/images/inhaler.png";
-// import FeatImage07 from '/public/images/samuraiTea.png'
-// import FeatImage08 from '/public/images/samuraiTeaDrinking.png'
+import FeatImage01 from '@/public/images/tranquilGarden.png'
+import FeatImage02 from '@/public/images/teaTime.png'
+import FeatImage03 from '@/public/images/zen.png'
+import FeatImage04 from '@/public/images/Tea.png'
+import FeatImage05 from '@/public/images/japanMap.png'
+import FeatImage06 from '@/public/images/samurai.png'
+import FeatImage07 from '@/public/images/samuraiTea.png'
+import FeatImage08 from '@/public/images/samuraiTeaDrinking.png'
 import MainImage from "../public/images/matcha-view.png";
 import teaTwo from "../public/images/gtdApple.webp";
 import teaFour from "../public/images/four.webp";
@@ -56,7 +57,6 @@ import tea47 from "../public/images/47.webp";
 import matchaKit from "../public/images/matchakit.webp";
 import teatime from "../public/images/meeting.jpg";
 import jp from "../public/images/japanpalace.jpg";
-
 
 import boxImgae from "../public/images/boximage.svg";
 
@@ -545,200 +545,229 @@ export default function Zigzag() {
 
           <h1 className="text-center h2 mb-4">The story!</h1>
 
-          {/* item 1 */}
-          <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
-            {/* Image */}
-            <div
-              className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1"
-              data-aos="fade-up"
-            >
-              <Image
-                className="max-w-full mx-auto md:max-w-none h-auto"
-                src={inhaler}
-                width={540}
-                height={405}
-                alt="Features 01"
-              />
-            </div>
-            {/* Content */}
-            <div
-              className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6"
-              data-aos="fade-right"
-            >
-              <div className="md:pr-4 lg:pr-12 xl:pr-16">
-                {/* <div className="font-architects-daughter text-xl text-purple-600 mb-2">More speed. Less spend</div> */}
-                <h3 className="h3 mb-3">
-                  As an asthmatic since the age of 7...
-                </h3>
-                <p className="text-xl text-gray-300 mb-4">
-                  {" "}
-                  I was heavily medicated growing up to help my breathing
-                  problems, but it wasn't working.{" "}
-                </p>{" "}
-                <br></br>{" "}
-                <p className="text-xl text-gray-300 mb-4">
-                  In hindsight, it was because i was living with pets i was
-                  incredibly allergic to.
-                </p>
-                <ul className="text-lg text-gray-400 -mb-2"></ul>
+          {/* Items with adjusted padding-top to start below the frame of the first opening */}
+          <div className="grid gap-20 pt-16">
+            {" "}
+            {/* Adjust this pt-16 value as needed */}
+            {/* 1st item */}
+            <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
+              {/* Image */}
+              <div
+                className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1"
+                data-aos="fade-up"
+              >
+                <Image
+                  className="max-w-full mx-auto md:max-w-none h-auto"
+                  src={FeatImage05}
+                  width={540}
+                  height={405}
+                  alt="Features 01"
+                />
+              </div>
+              {/* Content */}
+              <div
+                className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6"
+                data-aos="fade-right"
+              >
+                <div className="md:pr-4 lg:pr-12 xl:pr-16">
+                  {/* <div className="font-architects-daughter text-xl text-purple-600 mb-2">More speed. Less spend</div> */}
+                  <h3 className="h3 mb-3">🌱 Leaf the Ordinary Behind</h3>
+                  <p className="text-xl text-gray-300 mb-4">
+                    {" "}
+                    In the land of rising sun, green tea isn't just a beverage,
+                    it's a lifestyle.
+                  </p>{" "}
+                  <br></br> <p className="text-xl text-gray-300 mb-4"></p>
+                  <ul className="text-lg text-gray-400 -mb-2"></ul>
+                </div>
               </div>
             </div>
-          </div>
-
-          {/* 2nd item */}
-          <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
-            {/* Image */}
-            <div
-              className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 rtl"
-              data-aos="fade-up"
-            >
-              <Image
-                className="max-w-full mx-auto md:max-w-none h-auto"
-                src={FeatImage04}
-                width={540}
-                height={405}
-                alt="Features 02"
-              />
-            </div>
-            {/* Content */}
-            <div
-              className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6"
-              data-aos="fade-left"
-            >
-              <div className="md:pl-4 lg:pl-12 xl:pl-16">
-                {/* <div className="font-architects-daughter text-xl text-purple-600 mb-2">More speed. Less spend</div> */}
-                <h3 className="h3 mb-3">I naturally gravitated to...</h3>
-                <p className="text-xl text-gray-300 mb-4">
-                  {" "}
-                  eating healthy and doing everything i could to help myself
-                  naturally.{" "}
-                </p>{" "}
-                <br></br>{" "}
-                <p className="text-xl text-gray-300 mb-4">
-                  I organically turend to green tea, and for good reason - it
-                  has a molecule called theine, similar to caffine, which serves
-                  as the base molecule for the medicine i was taking - a natural
-                  bronchodilator.{" "}
-                </p>
+            {/* 2nd item */}
+            <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
+              {/* Image */}
+              <div
+                className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 rtl"
+                data-aos="fade-up"
+              >
+                <Image
+                  className="max-w-full mx-auto md:max-w-none h-auto"
+                  src={FeatImage04}
+                  width={540}
+                  height={405}
+                  alt="Features 02"
+                />
+              </div>
+              {/* Content */}
+              <div
+                className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6"
+                data-aos="fade-left"
+              >
+                <div className="md:pl-4 lg:pl-12 xl:pl-16">
+                  {/* <div className="font-architects-daughter text-xl text-purple-600 mb-2">More speed. Less spend</div> */}
+                  <h3 className="h3 mb-3"></h3>
+                  <p className="text-xl text-gray-300 mb-4">
+                    Forget the status quo; here's to the mavericks of matcha,
+                    the samurais of sencha! Your cup, your rules.
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-
-          {/* item 3 */}
-          <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
-            {/* Image */}
-            <div
-              className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1"
-              data-aos="fade-up"
-            >
-              <Image
-                className="max-w-full mx-auto md:max-w-none h-auto"
-                src={teamap}
-                width={540}
-                height={405}
-                alt="Features 01"
-              />
-            </div>
-            {/* Content */}
-            <div
-              className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6"
-              data-aos="fade-right"
-            >
-              <div className="md:pr-4 lg:pr-12 xl:pr-16">
-                {/* <div className="font-architects-daughter text-xl text-purple-600 mb-2">More speed. Less spend</div> */}
-                <h3 className="h3 mb-3">
-                  As a less stimulating, healthier alternative to coffee...{" "}
-                </h3>
-                <p className="text-xl text-gray-300 mb-4">
-                  {" "}
-                  I drink tea every day, upwards of three times a day.{" "}
-                </p>{" "}
-                <br></br>{" "}
-                <p className="text-xl text-gray-300 mb-4">
-                  I've tasted tea from nearly every country on the planet, and
-                  haven't found better tea than the collection i'm fortunate
-                  enough to share with you below.
-                </p>
-                <ul className="text-lg text-gray-400 -mb-2"></ul>
+            {/* 3rd item */}
+            <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
+              {/* Image */}
+              <div
+                className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1"
+                data-aos="fade-up"
+              >
+                <Image
+                  className="max-w-full mx-auto md:max-w-none h-auto"
+                  src={FeatImage06}
+                  width={540}
+                  height={405}
+                  alt="Features 03"
+                />
+              </div>
+              {/* Content */}
+              <div
+                className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6"
+                data-aos="fade-right"
+              >
+                <div className="md:pr-4 lg:pr-12 xl:pr-16">
+                  {/* <div className="font-architects-daughter text-xl text-purple-600 mb-2">More speed. Less spend</div> */}
+                  {/* <h3 className="h3 mb-3">Keep projects on schedule</h3> */}
+                  <p className="text-xl text-gray-300 mb-4">
+                    Welcome to Green Tea DAO, where we revere the leaf as a
+                    samurai respects their blade.
+                  </p>{" "}
+                  <br></br>{" "}
+                  <p className="text-xl text-gray-300 mb-4">
+                    Because here, every leaf tells a story—steeped in history,
+                    not pesticides.
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-
-          {/* 4th item */}
-          <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
-            {/* Image */}
-            <div
-              className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 rtl"
-              data-aos="fade-up"
-            >
-              <Image
-                className="max-w-full mx-auto md:max-w-none h-auto"
-                src={jp}
-                width={540}
-                height={405}
-                alt="Features 02"
-              />
-            </div>
-            {/* Content */}
-            <div
-              className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6"
-              data-aos="fade-left"
-            >
-              <div className="md:pl-4 lg:pl-12 xl:pl-16">
-                {/* <div className="font-architects-daughter text-xl text-purple-600 mb-2">More speed. Less spend</div> */}
-                <h3 className="h3 mb-3">On a work trip to Japan...</h3>
-                <p className="text-xl text-gray-300 mb-4">
-                  {" "}
-                  I stumbled upon a wonderful tea shop in Ginza. When i walked
-                  in, i saw their signature collection, Saboe47, honoring the 47
-                  prefectures of japan. This just so happens to be my favorite
-                  number.{" "}
-                </p>{" "}
-                <br></br>{" "}
-                <p className="text-xl text-gray-300 mb-4">
-                  {" "}
-                  Estatic as i was, i sat down to taste the teas teas, and it
-                  was by far the finest selection of green teas i've ever
-                  tasted.
-                </p>
+            {/* 4th item */}
+            <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
+              {/* Image */}
+              <div
+                className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 rtl"
+                data-aos="fade-up"
+              >
+                <Image
+                  className="max-w-full mx-auto md:max-w-none h-auto"
+                  src={FeatImage01}
+                  width={540}
+                  height={405}
+                  alt="Features 02"
+                />
+              </div>
+              {/* Content */}
+              <div
+                className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6"
+                data-aos="fade-left"
+              >
+                <div className="md:pl-4 lg:pl-12 xl:pl-16">
+                  {/* <div className="font-architects-daughter text-xl text-purple-600 mb-2">More speed. Less spend</div> */}
+                  {/* <h3 className="h3 mb-3">Keep projects on schedule</h3> */}
+                  <p className="text-xl text-gray-300 mb-4">
+                    Your tea corner isn't just a tea corner... It's a silent
+                    dojo where every sip is a kata, perfecting the art of
+                    relaxation.
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-
-          {/* item 5 */}
-          <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
-            {/* Image */}
-            <div
-              className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1"
-              data-aos="fade-up"
-            >
-              <Image
-                className="max-w-full mx-auto md:max-w-none h-auto"
-                src={teatime}
-                width={540}
-                height={405}
-                alt="Features 01"
-              />
+            {/* 5th item */}
+            <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
+              {/* Image */}
+              <div
+                className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1"
+                data-aos="fade-up"
+              >
+                <Image
+                  className="max-w-full mx-auto md:max-w-none h-auto"
+                  src={FeatImage02}
+                  width={540}
+                  height={405}
+                  alt="Features 03"
+                />
+              </div>
+              {/* Content */}
+              <div
+                className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6"
+                data-aos="fade-right"
+              >
+                <div className="md:pr-4 lg:pr-12 xl:pr-16">
+                  {/* <div className="font-architects-daughter text-xl text-purple-600 mb-2">More speed. Less spend</div> */}
+                  {/* <h3 className="h3 mb-3">Keep projects on schedule</h3> */}
+                  <p className="text-xl text-gray-300 mb-4">
+                    And at Green Tea DAO, we don't have influencers; we have
+                    leaf-luencers. They don't push products; they push petals.
+                    Green tea petals, steeped in hot water, not in hot gossip.
+                  </p>
+                </div>
+              </div>
             </div>
-            {/* Content */}
-            <div
-              className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6"
-              data-aos="fade-right"
-            >
-              <div className="md:pr-4 lg:pr-12 xl:pr-16">
-                {/* <div className="font-architects-daughter text-xl text-purple-600 mb-2">More speed. Less spend</div> */}
-                <h3 className="h3 mb-3">I met up with their team... </h3>
-                <p className="text-xl text-gray-300 mb-4">
-                  {" "}
-                  and asked if they would be willing to create a special product
-                  that included the teas from all of the regions.{" "}
-                </p>{" "}
-                <br></br>{" "}
-                <p className="text-xl text-gray-300 mb-4">
-                  Unfortuately, they weren't interested. So i took matters into
-                  my own hands, and put this wonderful collection into a memorable product for teal lovers anywhere to enjoy. 
-                </p>
-                <ul className="text-lg text-gray-400 -mb-2"></ul>
+            {/* 6th item */}
+            <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
+              {/* Image */}
+              <div
+                className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 rtl"
+                data-aos="fade-up"
+              >
+                <Image
+                  className="max-w-full mx-auto md:max-w-none h-auto"
+                  src={FeatImage03}
+                  width={540}
+                  height={405}
+                  alt="Features 02"
+                />
+              </div>
+              {/* Content */}
+              <div
+                className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6"
+                data-aos="fade-left"
+              >
+                <div className="md:pl-4 lg:pl-12 xl:pl-16">
+                  {/* <div className="font-architects-daughter text-xl text-purple-600 mb-2">More speed. Less spend</div> */}
+                  {/* <h3 className="h3 mb-3">Keep projects on schedule</h3> */}
+                  <p className="text-xl text-gray-300 mb-4">
+                    Oh, and Our aesthetics? Sharper than a samurai sword and
+                    more calming than a haiku in a breeze.
+                  </p>
+                </div>
+              </div>
+            </div>
+            {/* 7th item */}
+            <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
+              {/* Image */}
+              <div
+                className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1"
+                data-aos="fade-up"
+              >
+                <Image
+                  className="max-w-full mx-auto md:max-w-none h-auto"
+                  src={FeatImage08}
+                  width={540}
+                  height={405}
+                  alt="Features 03"
+                />
+              </div>
+              {/* Content */}
+              <div
+                className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6"
+                data-aos="fade-right"
+              >
+                <div className="md:pr-4 lg:pr-12 xl:pr-16">
+                  {/* <div className="font-architects-daughter text-xl text-purple-600 mb-2">More speed. Less spend</div> */}
+                  {/* <h3 className="h3 mb-3">Keep projects on schedule</h3> */}
+                  <p className="text-xl text-gray-300 mb-4">
+                    So, grab your favorite mug, pinky up, and join us. It’s not
+                    just a cup of tea, it’s a movement steeped in tradition and
+                    a hint of rebellion.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
